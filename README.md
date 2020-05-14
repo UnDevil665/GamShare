@@ -1,7 +1,10 @@
 # GamShare
 Splitting secret using gamming
 
-### How to Launch
+## How to Launch
 Launch xord.exe in dist
-![encrypt example](https://github.com/UnDevil665/GamShare/blob/master/ecryption%20example.png)
-![decrypt example](https://github.com/UnDevil665/GamShare/blob/master/decryption%20example.png)
+
+### Example of working program
+![test image](https://github.com/UnDevil665/GamShare/blob/master/ecryption%20example.png)
+
+![test image](https://github.com/UnDevil665/GamShare/blob/master/decryption%20example.png)
