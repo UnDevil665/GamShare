@@ -5,6 +5,5 @@ Splitting secret using gamming
 Launch xord.exe in dist
 
 ### Example of working program
-![test image](https://github.com/UnDevil665/GamShare/blob/master/ecryption%20example.png)
-![test image](https://github.com/UnDevil665/GamShare/blob/master/ecryption%20example.png)
+![test image](https://github.com/UnDevil665/GamShare/blob/master/ecryption%20example.png) ![test image](https://github.com/UnDevil665/GamShare/blob/master/ecryption%20example.png)
 
