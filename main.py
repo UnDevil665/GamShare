@@ -33,16 +33,23 @@ class MyWindow(QtWidgets.QMainWindow):
             message = self.get_xord(gamma2, message)
             message = self.get_xord(gamma3, message)
 
-            text = "".join(message)
+            for i in range(len(message)):
+                message[i] = str(ord(message[i]))
+
+            text = ""
+            for i in range(len(message)):
+                text = text + message[i] + " "
+
             self.ui.Ciphergramm.setText(text)
 
     def decrypt(self):
         gamma1 = self.ui.LineGamma12.text()
         gamma2 = self.ui.LineGamma22.text()
         gamma3 = self.ui.LineGamma32.text()
-        ciphergramm = self.ui.Ciphergramm2.toPlainText()
+        ciphergramm = list(map(int, self.ui.Ciphergramm2.toPlainText().split(' ')))
+
         if len(ciphergramm) and len(gamma1) and len(gamma2) and len(gamma3):
-            ciphergramm = self.get_xord(gamma1, list(ciphergramm))
+            ciphergramm = self.get_xord(gamma1, list(map(chr, ciphergramm)))
             ciphergramm = self.get_xord(gamma2, ciphergramm)
             ciphergramm = self.get_xord(gamma3, ciphergramm)
 
