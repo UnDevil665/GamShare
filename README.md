@@ -6,7 +6,6 @@ Splitting secret using gamming
 * Launch from console
   $>python  xord.py
   
-  Where python is path to Python interpreter in venv
 ### Example of working program
 ![test image](https://github.com/UnDevil665/GamShare/blob/master/Decryption_example.png) ![test image](https://github.com/UnDevil665/GamShare/blob/master/Encryption_example.png)
 
